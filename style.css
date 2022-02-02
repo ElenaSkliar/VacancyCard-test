@@ -1,0 +1,34 @@
+@font-face{
+
+    font-family: 'MyWebFont';
+    
+    src: url('fonts/Graphik-Bold-Web.woff2');
+    
+    src: url('fonts/Graphik-Regular-Web.woff2');
+    
+    }
+
+    :root{
+        --main-color: #FF5252;
+    }
+    *{
+        margin: 0;
+    }
+    body{
+        width: 100%;
+        font-family: 'MyWebFont';
+        background: #F2F5F8;
+    }
+    header{
+        width: 100%;
+        height: 60px;
+        padding: 0 40px;
+        background-color: var(--main-color);
+        display: flex;
+        align-items: center;
+    }
+    .vacancy-list{
+        margin: 40px auto;
+    }
+
+    
